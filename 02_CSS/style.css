@@ -1,0 +1,39 @@
+button{
+    border:none;
+    border-radius: 5px;
+    background-color: blue;
+    font-weight: 800;
+    padding:  5px 10px;
+
+}
+
+.name{
+    color:red;
+    font-weight: bolder;
+    
+}
+
+.dect{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#unq{
+    color:blue;
+    text-decoration: line-through;
+}
+
+/* flex box */
+
+.parent{
+    border: 5px solid gray;
+    padding: 10px;
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+.child{
+    border: 2px solid black;
+    margin-right: 10px;
+    flex: ;
+}

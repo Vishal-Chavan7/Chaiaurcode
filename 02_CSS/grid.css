@@ -1,0 +1,22 @@
+.parent{
+    display:grid;
+    border: 2px solid black;
+    grid-template-rows: repeat(6,70px);
+    grid-template-columns:  repeat(8,100px);
+    grid-gap: 10px;
+}
+
+.child{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+}
+.item2{
+    grid-row: start 1 / end -7; 
+}

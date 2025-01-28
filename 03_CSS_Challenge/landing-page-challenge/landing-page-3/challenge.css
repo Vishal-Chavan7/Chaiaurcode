@@ -87,26 +87,37 @@ body {
 }
 
 .tea-collection {
-  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
 }
 
 .tea-collection h2 {
-  color:#8B4513;
-  text-align: center;
-  margin-top: 50px;
+  font-size: 2rem;
+  color: #8B4513;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
 
 .tea-cards {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  gap: 5.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 .tea-card {
- 
-  /* flex-direction: column; */
-  margin:100px;
-  padding: 5px 100px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 280px;
+    text-align: center; 
 }
 
 .tea-card h3 {
@@ -114,5 +125,5 @@ body {
 }
 
 .tea-card p {
-  /* Define styles for tea card paragraph text here */
+  color:#767677;
 }
